@@ -1,0 +1,16 @@
+main {
+    display: flex;
+}
+
+
+form {
+justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: column;
+}
+
+form > input{
+    flex:1;
+}
