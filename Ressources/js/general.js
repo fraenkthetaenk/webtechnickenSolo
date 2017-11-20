@@ -1,9 +1,8 @@
 toggleShowNav = () => {
-    navList = document.getElementById("navList");
-    if(navList.classList.contains("show")){
-        navList.classList.remove("show")
+    let navList = document.getElementById("navList");
+    if (navList.classList.contains("show")) {
+        navList.classList.remove("show");
+    } else {
+        navList.classList.add("show");
     }
-    else {
-        navList.classList.add("show")
-    }
-}
+};
