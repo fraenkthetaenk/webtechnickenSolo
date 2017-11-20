@@ -23,5 +23,3 @@ passsword.addEventListener("input", function (event) {
   }
 });
 
-
-const x = open("C:/Users/SteineFr/PycharmProjects/webtechnickenSolo/Ressources/data/Userdata.json", "r")

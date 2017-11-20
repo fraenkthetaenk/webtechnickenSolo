@@ -1,16 +1,27 @@
 main {
     display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px), handheld, (max-device-width: 768px){
+form{
+    flex-grow: 1;
+}
 }
 
 
 form {
+    margin-top:2em;
 justify-content: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     flex-flow: column;
+    width: 400px;
+
 }
 
 form > input{
     flex:1;
+        margin-bottom: 1em;
 }
