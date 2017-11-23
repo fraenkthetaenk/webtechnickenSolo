@@ -1,3 +1,50 @@
-table, tr,th,td{
+table, tr, th, td {
     border: 1px solid black;
 }
+
+td > img {
+    height: auto;
+    width: 100%;
+    min-width: 200px;
+}
+
+.sorted-Up{
+    background: url("img/iconUp.svg") no-repeat right;
+}
+.sorted-Down{
+    background: url("img/iconDown.svg") no-repeat right;
+}
+
+@media (max-width: 800px), handheld, (max-device-width: 800px) {
+    tr > *:nth-child(3) {
+        display: none;
+
+    }
+}
+
+@media (max-width: 600px), handheld, (max-device-width: 600px) {
+
+    tr > *:nth-child(4) {
+        display: none;
+    }
+
+    tr > *:nth-child(7) {
+
+        display: none;
+    }
+
+}
+
+@media (max-width: 400px), handheld, (max-device-width: 400px) {
+    tr > *:nth-child(6) {
+        display: none;
+    }
+
+    tr > *:nth-child(5) {
+        display: none; 
+    }
+}
+
+
+
+

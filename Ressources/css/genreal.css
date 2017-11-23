@@ -75,7 +75,7 @@ main {
     }
 }
 
-@media (max-width: 768px), handheld, (max-device-width: 768px){
+@media (max-width: 800px), handheld, (max-device-width: 800px){
     nav {
         justify-content: space-between;
         flex-wrap: wrap;
@@ -92,6 +92,7 @@ main {
     .navToggleList {
         float: right;
         display: flex;
+        margin-right: 20px;
     }
 
     .nav.show {
@@ -104,3 +105,13 @@ main {
         max-width: none;
     }
 }
+
+@media (max-width: 600px), handheld, (max-device-width: 600px){
+
+}
+
+
+@media (max-width: 400px), handheld, (max-device-width: 400px){
+
+}
+

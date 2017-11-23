@@ -12,7 +12,7 @@
     <img src="" alt="Website-Logo" class="imageLogo">
     <ul class="nav" id="navList">
         <li>
-            <a href="#">
+            <a href="../start/start.html">
                 <span>Home</span>
             </a>
         </li>
@@ -22,7 +22,7 @@
             </a>
         </li>
         <li  class="active">
-            <a href="../input/input.html">
+            <a href="#">
                 <span>Input</span>
             </a>
         </li>
@@ -41,7 +41,7 @@
         <input name="lastname" id="lastnameIn" class="" placeholder="Nachname" type="text" required>
         <input name="username" id="usernameIn" class="" placeholder="Username" type="text"  minlength="7" required>
         <input name="email" id="emailIn" class="" placeholder="E-Mail" type="email" required>
-        <input name="password" id="passwordIn" class="" placeholder="Passwort" type="password" minlength="12" pattern="[a-zA-Z0-9]*[?!=#+-_%$§]{1}[a-zA-Z0-9]*" required>
+        <input name="password" id="passwordIn" class="" placeholder="Passwort" type="password" minlength="12" pattern="([a-zA-Z0-9]*|[?!=#+-_%§]{1,})*" required>
         <button type="submit" id="btnSubmit" onclick="checkInput()">Registrien</button>
     </form>
 </main>
@@ -50,5 +50,6 @@
 
 </footer>
 <script src="input.js"></script>
+<script src="../../Ressources/js/general.js"></script>
 </body>
 </html>

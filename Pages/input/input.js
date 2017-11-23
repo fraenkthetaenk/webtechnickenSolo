@@ -17,7 +17,7 @@ var passsword = document.getElementById("passwordIn");
 
 passsword.addEventListener("input", function (event) {
   if (passsword.validity.patternMismatch) {
-    passsword.setCustomValidity("You need to add at least one of these characters: ?!=#+-_%$§");
+    passsword.setCustomValidity("You need to add at least one of these characters: ?!=#+-_%§");
   } else {
     passsword.setCustomValidity("");
   }

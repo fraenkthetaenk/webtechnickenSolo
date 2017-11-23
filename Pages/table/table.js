@@ -7,6 +7,11 @@ sortTable = (event) =>
 {
 let header = document.getElementById("bookTableHeader");
 let clickedCell = 0;
+for (let i = 0; i<header.rows[0].cells.length;i++){
+    header.rows[0].cells[i].classList=""
+}
+
+
 for (let i = 0; i<header.rows[0].cells.length;i++)
 {
     if(event.target.id == header.rows[0].cells[i].id)
@@ -14,17 +19,22 @@ for (let i = 0; i<header.rows[0].cells.length;i++)
         clickedCell=i;
         break
     }
-    console.log(i)
-
 }
-
-console.log(clickedCell)
 
     if (lastUsedSort == event.target.id) {
         inOrder = !inOrder;
     }
     else {
         inOrder = true;
+    }
+
+    if(inOrder)
+    {
+        header.rows[0].cells[clickedCell].classList="sorted-Down"
+    }
+    else
+    {
+        header.rows[0].cells[clickedCell].classList="sorted-Up"
     }
 
     let tableBody = document.getElementById("bookTableBody")
