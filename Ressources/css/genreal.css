@@ -62,7 +62,7 @@ main {
     margin: auto;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 800px) {
 
     nav > .nav > li {
         max-width: 150px;
