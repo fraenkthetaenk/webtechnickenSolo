@@ -1,8 +1,10 @@
 toggleShowNav = () => {
-    let navList = document.getElementById("navList");
-    if (navList.classList.contains("show")) {
-        navList.classList.remove("show");
-    } else {
-        navList.classList.add("show");
+    let navList = document.getElementsByClassName("inDropDown");
+    for(let e = 0; e<navList.length; e++) {
+        if (navList[e].classList.contains("show")) {
+            navList[e].classList.remove("show");
+        } else {
+            navList[e].classList.add("show");
+        }
     }
 };

@@ -14,35 +14,82 @@
 </header>
 <nav>
     <img src="" alt="Website-Logo" class="imageLogo" class="navitem one">
-    <a href="#" class="navitem two">
-        Home
+    <a href="#" class="navitem two inDropDown active">
+        <span>Home</span>
     </a>
-    <a href="../table/table.html" class="navitem three">
+    <a href="../table/table.html" class="navitem three inDropDown">
         <span>Table</span>
     </a>
-    <a href="../input/input.html" class="navitem four">
+    <a href="../input/input.html" class="navitem four inDropDown">
         <span>Input</span>
     </a>
     <button class="navitem five" onclick="toggleShowNav()">
-        <svg width="30px" height="30px">
+        <svg width="30px" height="30px" class="navMenuSvg">
             <rect height="4" width="20" y="5" x="5" fill="white"></rect>
             <rect height="4" width="20" y="13" x="5" fill="white"></rect>
             <rect height="4" width="20" y="21" x="5" fill="white"></rect>
         </svg>
     </button>
 </nav>
-<!--<main>-->
-    <!--<div id="gridtest">-->
-        <!--<div class="wrapper">-->
-            <!--<div class="one">One</div>-->
-            <!--<div class="two">Two</div>-->
-            <!--<div class="three">Three</div>-->
-            <!--<div class="four">four</div>-->
-            <!--<div class="five">five</div>-->
-            <!--<div class="six">Six</div>-->
-        <!--</div>-->
-    <!--</div>-->
+<main>
+    <h1 class="heading">GRID-LAYOUT</h1>
+    <div class="smallExample">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+        <div class="five">5</div>
+        <div class="six">6</div>
+
+
+    </div>
+
+    <div class="generalExplain">
+          Das Layout dieser Seite ist ein Grid-Layout.
+        <br>
+
+        Wrapper:
+        display: grid;
+        grid-template-columns:
+        grid-auto-rows:
+        <br>
+        Die Elemente positionieren sich dann entweder nach Sourc-Reihenfolge oder können mit den css-properties:
+        grid-column und grid-row einer Position zugewiesen werden.
+        Hierbei kann man diese Elemente auch über mehrere Zellen laufen lassen.
+        <br>
+        Alternativ hierzu kann man dies auch über die Verwendung von der Eigenschaft Grid-area machen.
+        Mit dieser kann man ein Grid durch die verwendung von Key-words erstellen und den Elementen dann die
+        Keywordszuweisen, deren Darstellung sie annhemen sollen.
+
+    </div>
+
+    <div class="gridAreas">
+    </div>
+
+    <div class="gridAreasExplain">
+    </div>
+
+    <div class="gridColumn">
+    </div>
+
+    <div class="gridColumnExplain">
+    </div>
+
+    <div class="gridRow">
+    </div>
+
+    <div class="gridRowExplained">
+    </div>
+
+
+    <div class="gridPos">
+    </div>
+
+    <div class="gridPosExplained">
+    </div>
+
 </main>
+<aside></aside>
 <footer></footer>
 <script src="../../Ressources/js/general.js"></script>
 </body>
