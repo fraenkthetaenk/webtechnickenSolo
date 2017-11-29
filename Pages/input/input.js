@@ -10,6 +10,8 @@ checkInput = () => {
         dataFile["password"] = document.getElementById("passwordIn").value;
 
 
+
+
     }
 }
 

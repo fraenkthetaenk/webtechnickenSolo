@@ -8,10 +8,17 @@ td > img {
     min-width: 200px;
 }
 
-.sorted-Up{
+th{
+    padding:0px 20px;
+}
+
+.sorted-Up {
+    background: red;
     background: url("img/iconUp.svg") no-repeat right;
 }
-.sorted-Down{
+
+.sorted-Down {
+    background: green;
     background: url("img/iconDown.svg") no-repeat right;
 }
 
@@ -41,7 +48,7 @@ td > img {
     }
 
     tr > *:nth-child(5) {
-        display: none; 
+        display: none;
     }
 }
 
