@@ -10,6 +10,13 @@
 <body>
 <nav>
     <img src="" alt="Website-Logo" class="imageLogo">
+    <button class="navToggleList" onclick="toggleShowNav()">
+        <svg width="30px" height="30px">
+            <rect height="4" width="20" y="5" x="5" fill="white"></rect>
+            <rect height="4" width="20" y="13" x="5" fill="white"></rect>
+            <rect height="4" width="20" y="21" x="5" fill="white"></rect>
+        </svg>
+    </button>
     <ul class="nav" id="navList">
         <li>
             <a href="../start/start.html">
@@ -27,16 +34,11 @@
             </a>
         </li>
     </ul>
-    <button class="navToggleList" onclick="toggleShowNav()">
-        <svg width="30px" height="30px">
-            <rect height="4" width="20" y="5" x="5" fill="white"></rect>
-            <rect height="4" width="20" y="13" x="5" fill="white"></rect>
-            <rect height="4" width="20" y="21" x="5" fill="white"></rect>
-        </svg>
-    </button>
+
 </nav>
 <main>
-
+    <h1>Float-Layout</h1>
+<div>
     <table>
         <thead id="bookTableHeader">
         <tr>
@@ -118,6 +120,14 @@
         </tr>
         </tbody>
     </table>
+
+    <div class="info">
+        Diese Seite basiert auf dem Boxmodell.
+        <br>
+        Hier werden die Elemente mithilfe von der Float eigenschaft angeordnet
+    </div>
+    </div>
+</main>
 
 </main>
 

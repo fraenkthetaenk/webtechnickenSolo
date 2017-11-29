@@ -1,20 +1,7 @@
-body {
-    margin: 0;
-    padding: 0;
-    margin-top: 55px;
-}
-
 nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background: black;
-    grid-auto-rows: 50px;
-    color: white;
-    z-index: 10;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
+    grid-auto-rows: 40px;
 }
 
 nav > a {
@@ -29,9 +16,9 @@ nav > a > span {
     margin: auto;
 }
 
-.active {
-    background: deepskyblue;
-}
+/*.active {*/
+    /*background: deepskyblue;*/
+/*}*/
 
 .navitem.one {
     grid-column: 1;
@@ -67,7 +54,7 @@ nav > a > span {
 }
 
 .inDropDown.show {
-    display: flex;
+    display: grid;
 }
 
 .navMenuSvg {
@@ -221,7 +208,7 @@ main {
     }
 
     .inDropDown {
-        display: flex;
+        display: grid;
     }
 
     /*body-grid*/

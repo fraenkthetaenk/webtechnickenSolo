@@ -77,3 +77,16 @@ for (var i = 0; i < tableHeaders.length; i++) {
     tableHeaders[i].addEventListener("click", (event) => {sortTable(event)}
 )
 }
+
+
+
+
+toggleShowNav = () => {
+    let navList = document.getElementById("navList");
+    console.log(navList)
+    if (navList.classList.contains("show")) {
+        navList.classList.remove("show");
+    } else {
+        navList.classList.add("show");
+    }
+}

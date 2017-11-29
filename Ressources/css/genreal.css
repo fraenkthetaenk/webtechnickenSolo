@@ -1,11 +1,12 @@
 nav {
     background-color: black;
     width: 100vw;
-    display: flex;
     color: white;
     position: fixed;
     z-index: 10;
     top: 0px;
+    left: 0px;
+
 }
 
 nav > * {
@@ -15,34 +16,26 @@ nav > * {
 nav > .imageLogo {
     min-width: 50px;
     max-width: 100px;
-    flex-grow: 0.2;
 }
 
 .nav > li > a {
     text-decoration: none;
     color: white;
     margin: auto;
-    outline:none;
+    outline: none;
 }
 
 .active {
     background: deepskyblue;
-    color: red;
 }
 
 body {
     margin: 0;
-    padding: 0;
-}
-
-main {
     padding-top: 40px;
 }
 
 .nav {
-    display: flex;
     list-style: none;
-    flex-grow: 1;
     margin: 0;
 }
 
@@ -52,9 +45,7 @@ main {
 }
 
 .nav > li > a {
-    flex-grow: 1;
     margin: 0;
-    display: flex;
 }
 
 .nav > li > a > span {
@@ -65,8 +56,6 @@ main {
 
     nav > .nav > li {
         max-width: 150px;
-        flex-grow: 1;
-        display: flex;
     }
 
     .navToggleList {
@@ -74,43 +63,33 @@ main {
     }
 }
 
-@media (max-width: 800px), handheld, (max-device-width: 800px){
+@media (max-width: 800px), handheld, (max-device-width: 800px) {
     nav {
         justify-content: space-between;
-        flex-wrap: wrap;
     }
 
     .nav {
         display: none;
         width: 100%;
-        flex-direction: column;
-        order: 3;
         padding: 0;
     }
 
     .navToggleList {
         float: right;
-        display: flex;
         margin-right: 20px;
-    }
-
-    .nav.show {
-        display: flex;
     }
 
     .nav.show > li {
         min-height: 50px;
-        display: flex;
         max-width: none;
     }
 }
 
-@media (max-width: 600px), handheld, (max-device-width: 600px){
+@media (max-width: 600px), handheld, (max-device-width: 600px) {
 
 }
 
-
-@media (max-width: 400px), handheld, (max-device-width: 400px){
+@media (max-width: 400px), handheld, (max-device-width: 400px) {
 
 }
 

@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="input.css" rel="stylesheet">
     <link href="../../Ressources/css/genreal.css" rel="stylesheet">
     <link href="../../Ressources/img/HTML5_Logo.ico" type="image/x-icon" rel="icon">
-    <link href="input.css" rel="stylesheet">
+
 </head>
 <body>
 <nav>
@@ -21,7 +22,7 @@
                 <span>Table</span>
             </a>
         </li>
-        <li  class="active">
+        <li class="active">
             <a href="#">
                 <span>Input</span>
             </a>
@@ -36,12 +37,24 @@
     </button>
 </nav>
 <main>
+    <h1>FlexBox Layout</h1>
     <form id="inputForm">
         <input name="prename" id="prenameIn" class="" placeholder="Vorname" type="text" required>
         <input name="lastname" id="lastnameIn" class="" placeholder="Nachname" type="text" required>
-        <input name="username" id="usernameIn" class="" placeholder="Username" type="text"  minlength="7" required>
+        <input name="username" id="usernameIn" class="" placeholder="Username" type="text" minlength="7" required>
         <input name="email" id="emailIn" class="" placeholder="E-Mail" type="email" required>
-        <input name="password" id="passwordIn" class="" placeholder="Passwort" type="password" minlength="12" pattern="([a-zA-Z0-9]*|[?!=#+-_%§]{1,})*" required>
+        <input name="password" id="passwordIn" class="" placeholder="Passwort" type="text"
+               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[?!=#+-_%§]).{12,}" required>
+        <div class="pwInfo">
+            The password must contain:
+            <p id="pwNumberCheck">1 Number</p>
+            <p id="pwLowercaseCheck">1 lowercase letter</p>
+            <p id="pwUppercaseCheck">1 uppercase Letter</p>
+            <p id="pwSpecialCharacterCheck">1 of these special characters: ?!=#+-_%§</p>
+            <p id="minLength">A Minimum of 12 characters</p>
+        </div>
+
+
         <button type="submit" id="btnSubmit" onclick="checkInput()">Registrien</button>
     </form>
 </main>
