@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <title>Start</title>
@@ -10,10 +10,8 @@
 </head>
 <body>
 <header>
-
-</header>
 <nav>
-    <img src="" alt="Website-Logo" class="imageLogo" class="navitem one">
+    <img src="./../../Ressources/img/websiteLogo.jpg" alt="Website-Logo" class="imageLogo" class="navitem one">
     <a href="#" class="navitem two inDropDown active">
         <span>Home</span>
     </a>
@@ -31,6 +29,8 @@
         </svg>
     </button>
 </nav>
+
+</header>
 <main>
     <h1 class="heading">GRID-LAYOUT</h1>
     <div class="smallExample">
@@ -40,17 +40,22 @@
         <div class="four">4</div>
         <div class="five">5</div>
         <div class="six">6</div>
-
-
     </div>
 
     <div class="generalExplain">
-          Das Layout dieser Seite ist ein Grid-Layout.
+        Das Layout dieser Seite ist ein Grid-Layout
         <br>
-
+        Das Grid Layout ermöglicht es Elemente gleichzeitig nach Spalten und nach Reihen anzuordnen.
+        <br>
+        Diese Art der Erstellung befindet sich noch in der Entwicklung und ist wird aktuell nur von 75% der genutzten
+        browser unterstützt. Stand 30.11.17 nach <a href="www.caniuse.com">caniuse.com</a>
+        <br>
         Wrapper:
+        <br>
         display: grid;
+        <br>
         grid-template-columns:
+        <br>
         grid-auto-rows:
         <br>
         Die Elemente positionieren sich dann entweder nach Sourc-Reihenfolge oder können mit den css-properties:
@@ -60,36 +65,72 @@
         Alternativ hierzu kann man dies auch über die Verwendung von der Eigenschaft Grid-area machen.
         Mit dieser kann man ein Grid durch die verwendung von Key-words erstellen und den Elementen dann die
         Keywordszuweisen, deren Darstellung sie annhemen sollen.
-
     </div>
 
     <div class="gridAreas">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+
     </div>
 
     <div class="gridAreasExplain">
+        Mithilfe von Grid Areas, kann man Rechteckige bereiche des Grids definieren und diese den Grid-Elementen
+        zuweisen.
+        <br>
+        Dadurch muss man sich nicht mehr überlegen über welche Reihen und Spalten sich das Element erstreckt, sondern
+        einfach nur definerne welchen bereich sie beschreiben.
+        <br>
+        Für das nebenstehende Layout wurde folgens Area Definiert
+        <br>
+        "1 1 2"
+        <br>
+        "1 1 3"
+        <br>
+        "4 4 3"
     </div>
 
     <div class="gridColumn">
+        <div class="one">1 bis 3</div>
+        <div class="two">2 bis 5</div>
+        <div class="three">3 bis 6</div>
+        <div class="four">1 bis 6</div>
+        <div class="five">nur 2</div>
     </div>
 
     <div class="gridColumnExplain">
+        Mit grid-colum kann man bestimmen von welcher Spalte bis zur welcher spalte sich ein element erstecken soll.
+        <br>
+        Hierbei grenzt das Element an die Zielspalte und schließt diese nicht mit ein
+        Bei dem Beispiel handelt es sich um ein 5*5 gird
     </div>
 
     <div class="gridRow">
+        <div class="one">1 bis 3</div>
+        <div class="two">2 bis 5</div>
+        <div class="three">3 bis 6</div>
+        <div class="four">1 bis 6</div>
+        <div class="five">nur 2</div>
     </div>
 
     <div class="gridRowExplained">
+
+        Mit grid-row kann man bestimmen von welcher Reihe bis zur welcher Reihe sich ein element erstecken soll.
+        <br>
+        Hierbei grenzt das Element an die Zielreihe und schließt diese nicht mit ein
+        <br>
+        Bei dem Beispiel handelt es sich um ein 5*5 gird
     </div>
 
 
-    <div class="gridPos">
-    </div>
+    <!--<div class="gridPos">-->
+    <!--</div>-->
 
-    <div class="gridPosExplained">
-    </div>
+    <!--<div class="gridPosExplained">-->
+    <!--</div>-->
 
 </main>
-<aside></aside>
 <footer></footer>
 <script src="../../Ressources/js/general.js"></script>
 </body>

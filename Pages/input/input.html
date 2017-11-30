@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -9,8 +9,9 @@
 
 </head>
 <body>
+<header>
 <nav>
-    <img src="" alt="Website-Logo" class="imageLogo">
+    <img src="./../../Ressources/img/websiteLogo.jpg" alt="Website-Logo" class="imageLogo">
     <ul class="nav" id="navList">
         <li>
             <a href="../start/start.html">
@@ -36,27 +37,66 @@
         </svg>
     </button>
 </nav>
-<main>
-    <h1>FlexBox Layout</h1>
-    <form id="inputForm">
-        <input name="prename" id="prenameIn" class="" placeholder="Vorname" type="text" required>
-        <input name="lastname" id="lastnameIn" class="" placeholder="Nachname" type="text" required>
-        <input name="username" id="usernameIn" class="" placeholder="Username" type="text" minlength="7" required>
-        <input name="email" id="emailIn" class="" placeholder="E-Mail" type="email" required>
-        <input name="password" id="passwordIn" class="" placeholder="Passwort" type="text"
-               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[?!=#+-_%§]).{12,}" required>
-        <div class="pwInfo">
-            The password must contain:
-            <p id="pwNumberCheck">1 Number</p>
-            <p id="pwLowercaseCheck">1 lowercase letter</p>
-            <p id="pwUppercaseCheck">1 uppercase Letter</p>
-            <p id="pwSpecialCharacterCheck">1 of these special characters: ?!=#+-_%§</p>
-            <p id="minLength">A Minimum of 12 characters</p>
+</header>
+    <main>
+    <div class="login-wrapper">
+        <h1 class="header">FlexBox Layout</h1>
+        <form id="inputForm" method="get">
+            <input name="prename" id="prenameIn" class="" placeholder="Vorname" type="text" required>
+            <input name="lastname" id="lastnameIn" class="" placeholder="Nachname" type="text" required>
+            <input name="username" id="usernameIn" class="" placeholder="Username" type="text" minlength="7" required>
+            <input name="email" id="emailIn" class="" placeholder="E-Mail" type="email" required>
+            <input name="password" id="passwordIn" class="" placeholder="Passwort" type="password"
+                   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[?!=#+-_%§]).{12,}" required>
+            <div class="pwInfo">
+                The password must contain:
+                <p id="pwNumberCheck">1 Number</p>
+                <p id="pwLowercaseCheck">1 lowercase letter</p>
+                <p id="pwUppercaseCheck">1 uppercase Letter</p>
+                <p id="pwSpecialCharacterCheck">1 of these special characters: ?!=#+-_%§</p>
+                <p id="minLength">A Minimum of 12 characters</p>
+            </div>
+            <button type="submit" id="btnSubmit" onclick="checkInput()">Registrien</button>
+        </form>
+        <div class="flexDes">
+            Für die Erstellung der Seite wurde das Flexbox modell verwendet.
+            <br>
+            Das Flexbox modell ist der aktuelle Standard für das Erstellen von Layouts.
+            <br>
+            Flexbox kann dazu verwendet werden um Layouts nach Spalten <b>oder</b> nach Reihen erstellt werden.
+            <br>
+            Die Flexbox wird dadurch bestimmt, dass im außeren Element die Display Eigenschaft auf flex gesetzt wird.
+            <br>
+            Ob man nun ein Layout nach Spalten oder nach Reihen erstellt, wird durch die Eigenschaft flex-direction
+            festgelegt.
+            Hier kann man auch noch wählen ob die Elemente in Reihenfolge oder umgekehrt dargestellt werden soll.
+            Die Reihenfolge der Elemente entspricht standarmäßig der in der sie im Sourcedokument vorkommen, allerdings,
+            kann man diese sspäter auch noch mit der Eigneschaft order beliebig ändern. Wenn mehrere Elemente denselben
+            order wert haben entschiedet wirder die Position im Dokument.
+            <br>
+            Im Gegensatz zum Float Layout haben alle Elemente innerhalb einer Flex-Elementes dieselbe Höhe.
+            <br>
+            Über die Eigenschaften Flex-grow und flex-shrink der Kinder kann man zudem bestimmen wie schnell sie im
+            Verhältnis zu Ihren Geschwistern wachsen und/oder schrumpfen.
+            <br>
+            Die eingeschaft flex-basis kann dazu genutzt werden um einen minimale Größe für das Element (in der
+            Aktuellen Flex-richtung) zu definiern, den sie auch nicht unterschreiten dürfen. Bevor sie diesen
+            unterschreinten, werden erst die Geschwister geschrumpft, auch wenn diese eigentlich langsamer schrumpfen
+            würden.
         </div>
+    </div>
 
+    <div class="lastLogin-wrapper">
+        <h2 class="text-center">Dieser User hat sich zuletzt registriert:</h2>
+        <ul class="lastRegisterdList">
+            <li>Vorname : <span id="spanPrename"></span></li>
+            <li>Nachname : <span id="spanLastname"></span></li>
+            <li>Username : <span id="spanUsername"></span></li>
+            <li>Email : <span id="spanEmail"></span></li>
+            <li>Password : <span id="spanPassword"></span></li>
+        </ul>
 
-        <button type="submit" id="btnSubmit" onclick="checkInput()">Registrien</button>
-    </form>
+    </div>
 </main>
 
 <footer>

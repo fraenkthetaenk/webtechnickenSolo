@@ -89,8 +89,76 @@ nav > img {
 
 /*Nav-Bar ende*/
 
+.col-1 {
+    width: 25%;
+    float: left;
+
+}
+
+.col-2 {
+    width: 50%;
+    float: left;
+
+}
+
+.col-3 {
+    width: 75%;
+    float: left;
+
+}
+
+.col-4 {
+    width: 100%;
+    float: left;
+
+}
+
+.row {
+    float: left;
+    width:100%;
+}
+
+@media (min-width: 800px) {
+    .col-md-1 {
+        width: 25%;
+        float: left;
+
+    }
+
+    .col-md-2 {
+        width: 50%;
+        float: left;
 
 
-.info{
+    }
+
+    .col-md-3 {
+        width: 75%;
+        float: left;
+
+    }
+
+    .col-md-4 {
+        width: 100%;
+        float: left;
+
+    }
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.info {
     float: right;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.warning{
+    background-color: firebrick;
+    text-align: center;
 }

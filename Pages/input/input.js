@@ -1,18 +1,24 @@
+window.onload = (ev => {
+    let url = new URL(window.location);
+    console.log(url)
+    if (url.searchParams.get("prename") != null) {
+        document.getElementById("spanPrename").innerText = url.searchParams.get("prename");
+        document.getElementById("spanLastname").innerText = url.searchParams.get("lastname")
+        document.getElementById("spanUsername").innerText = url.searchParams.get("username");
+        document.getElementById("spanEmail").innerText = url.searchParams.get("email");
+        document.getElementById("spanPassword").innerText = url.searchParams.get("password");
+        document.getElementsByClassName("lasLogin-wrapper")[0].classList.add("show")
+    }
+
+})
+
+
 checkInput = () => {
     let inForm = document.getElementById("inputForm");
 
     if (inForm.checkValidity()) {
-        dataFile = {};
-        dataFile["prename"] = document.getElementById("prenameIn").value;
-        dataFile["lastname"] = document.getElementById("lastnameIn").value;
-        dataFile["username"] = document.getElementById("usernameIn").value;
-        dataFile["email"] = document.getElementById("emailIn").value;
-        dataFile["password"] = document.getElementById("passwordIn").value;
-
-
     }
 }
-
 
 var passsword = document.getElementById("passwordIn");
 
@@ -24,7 +30,6 @@ passsword.addEventListener("input", function (event) {
         passsword.setCustomValidity("");
     }
 });
-
 
 passsword.addEventListener("keyup", (event) => {
     let number = document.getElementById("pwNumberCheck");

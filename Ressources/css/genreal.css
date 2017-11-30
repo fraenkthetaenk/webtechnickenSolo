@@ -16,6 +16,7 @@ nav > * {
 nav > .imageLogo {
     min-width: 50px;
     max-width: 100px;
+    height: 40px;
 }
 
 .nav > li > a {
