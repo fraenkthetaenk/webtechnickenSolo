@@ -1,3 +1,6 @@
+/*
+*Toggles the Navbar for the Mobile Layout
+ */
 toggleShowNav = () => {
     let navList = document.getElementsByClassName("inDropDown");
     for(let e = 0; e<navList.length; e++) {
