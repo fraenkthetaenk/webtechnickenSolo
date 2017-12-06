@@ -6,27 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="416e0642-c09c-4e9f-9ad6-4ecac930fb4c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Pages/input/input.css" afterPath="$PROJECT_DIR$/pages/input/input.css" />
-      <change beforePath="$PROJECT_DIR$/Pages/input/input.html" afterPath="$PROJECT_DIR$/pages/input/input.html" />
-      <change beforePath="$PROJECT_DIR$/Pages/input/input.js" afterPath="$PROJECT_DIR$/pages/input/input.js" />
-      <change beforePath="$PROJECT_DIR$/Pages/start/start.css" afterPath="$PROJECT_DIR$/pages/start/start.css" />
-      <change beforePath="$PROJECT_DIR$/Pages/start/start.html" afterPath="$PROJECT_DIR$/pages/start/start.html" />
-      <change beforePath="$PROJECT_DIR$/Pages/start/start.js" afterPath="$PROJECT_DIR$/pages/start/start.js" />
-      <change beforePath="$PROJECT_DIR$/Pages/table/img/aot.jpg" afterPath="$PROJECT_DIR$/pages/table/img/aot.jpg" />
-      <change beforePath="$PROJECT_DIR$/Pages/table/img/danmachi.jpg" afterPath="$PROJECT_DIR$/pages/table/img/danmachi.jpg" />
-      <change beforePath="$PROJECT_DIR$/Pages/table/img/iconDown.svg" afterPath="$PROJECT_DIR$/pages/table/img/icon_down.svg" />
-      <change beforePath="$PROJECT_DIR$/Pages/table/img/iconUp.svg" afterPath="$PROJECT_DIR$/pages/table/img/icon_up.svg" />
-      <change beforePath="$PROJECT_DIR$/Pages/table/img/ngnl.jpg" afterPath="$PROJECT_DIR$/pages/table/img/ngnl.jpg" />
-      <change beforePath="$PROJECT_DIR$/Pages/table/img/sao.jpg" afterPath="$PROJECT_DIR$/pages/table/img/sao.jpg" />
-      <change beforePath="$PROJECT_DIR$/Pages/table/img/spice and wolf.jpg" afterPath="$PROJECT_DIR$/pages/table/img/spice_and_wolf.jpg" />
-      <change beforePath="$PROJECT_DIR$/Pages/table/img/tokyo_ghoul.jpg" afterPath="$PROJECT_DIR$/pages/table/img/tokyo_ghoul.jpg" />
-      <change beforePath="$PROJECT_DIR$/Pages/table/table.css" afterPath="$PROJECT_DIR$/pages/table/table.css" />
-      <change beforePath="$PROJECT_DIR$/Pages/table/table.html" afterPath="$PROJECT_DIR$/pages/table/table.html" />
-      <change beforePath="$PROJECT_DIR$/Pages/table/table.js" afterPath="$PROJECT_DIR$/pages/table/table.js" />
-      <change beforePath="$PROJECT_DIR$/Ressources/css/genreal.css" afterPath="$PROJECT_DIR$/ressources/css/genreal.css" />
-      <change beforePath="$PROJECT_DIR$/Ressources/img/HTML5_Logo.ico" afterPath="$PROJECT_DIR$/ressources/img/html5_logo.ico" />
-      <change beforePath="$PROJECT_DIR$/Ressources/img/websiteLogo.jpg" afterPath="$PROJECT_DIR$/ressources/img/website_logo.jpg" />
-      <change beforePath="$PROJECT_DIR$/Ressources/js/general.js" afterPath="$PROJECT_DIR$/ressources/js/general.js" />
+      <change beforePath="$PROJECT_DIR$/pages/table/table.css" afterPath="$PROJECT_DIR$/pages/table/table.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="table.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/table/table.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="genreal.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ressources/css/genreal.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="16" />
               <folding>
                 <element signature="e#369#401#0" expanded="false" />
                 <element signature="e#408#449#0" expanded="false" />
@@ -51,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="table.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/table/table.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="table.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/table/table.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="30" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="163" selection-end-column="1" />
+            <state relative-caret-position="322">
+              <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="start.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/start/start.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="5923">
               <caret line="390" column="5" lean-forward="true" selection-start-line="390" selection-start-column="5" selection-end-line="390" selection-end-column="5" />
               <folding>
                 <marker date="1512593530663" expanded="true" signature="6764:6869" ph="{...}" />
@@ -127,6 +127,7 @@
       <find>heading</find>
       <find>font</find>
       <find>gridColumnEx</find>
+      <find>imageLogo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -155,6 +156,9 @@
         <option value="$PROJECT_DIR$/Pages/table/table.html" />
         <option value="$PROJECT_DIR$/pages/start/start.html" />
         <option value="$PROJECT_DIR$/pages/start/start.css" />
+        <option value="$PROJECT_DIR$/pages/table/table.js" />
+        <option value="$PROJECT_DIR$/pages/table/table.html" />
+        <option value="$PROJECT_DIR$/pages/table/table.css" />
       </list>
     </option>
   </component>
@@ -411,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512061346609</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Abgabe for check">
+      <created>1512593570241</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512593570241</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -420,7 +431,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07211029" sideWeight="0.5104167" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.081654295" sideWeight="0.48958334" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.081654295" sideWeight="0.48958334" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -466,7 +477,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -491,7 +502,8 @@
     <MESSAGE value="grid try" />
     <MESSAGE value="grid enhancment" />
     <MESSAGE value="Nearly finished,Missing doku and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nearly finished,Missing doku and footer" />
+    <MESSAGE value="Abgabe for check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abgabe for check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -800,14 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/table/table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ressources/js/general.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -822,14 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="87" column="0" lean-forward="false" selection-start-line="91" selection-start-column="53" selection-end-line="98" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/table/table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -849,32 +845,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/start/start.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5923">
+          <caret line="390" column="5" lean-forward="true" selection-start-line="390" selection-start-column="5" selection-end-line="390" selection-end-column="5" />
+          <folding>
+            <marker date="1512593530663" expanded="true" signature="6764:6869" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/input/input.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
           <folding>
             <marker date="1512592460710" expanded="true" signature="5:54" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/table/table.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="163" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ressources/css/genreal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <element signature="e#369#401#0" expanded="false" />
-            <element signature="e#408#449#0" expanded="false" />
-            <marker date="1512592460733" expanded="true" signature="558:590" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -889,13 +875,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/start/start.css">
+    <entry file="file://$PROJECT_DIR$/pages/table/table.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="390" column="5" lean-forward="true" selection-start-line="390" selection-start-column="5" selection-end-line="390" selection-end-column="5" />
+        <state relative-caret-position="546">
+          <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/table/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ressources/css/genreal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="16" />
           <folding>
-            <marker date="1512593530663" expanded="true" signature="6764:6869" ph="{...}" />
+            <element signature="e#369#401#0" expanded="false" />
+            <element signature="e#408#449#0" expanded="false" />
+            <marker date="1512592460733" expanded="true" signature="558:590" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/table/table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

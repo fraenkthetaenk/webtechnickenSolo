@@ -68,6 +68,7 @@ th {
 
 nav > img {
     display: inline-block;
+    float: left;
 }
 
 @media (min-width: 800px) {
