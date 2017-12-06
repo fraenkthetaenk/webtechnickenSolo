@@ -167,11 +167,6 @@ main {
     background-color: springgreen;
 }
 
-.gridAreasExplain {
-    grid-area: gridAreasExplain;
-    background: blue;
-}
-
 .gridColumn {
     grid-area: gridColumn;
     background-color: deepskyblue;
@@ -366,7 +361,6 @@ main {
         background-color: deepskyblue;
     }
 
-    .
     .gridColumnExplain {
         grid-area: gridColumnExplain;
         background-color: green;
@@ -397,12 +391,20 @@ main {
     }
 
     /*footer-grid*/
-    footer {
-        display: grid;
-        grid-area: footer;
-        background: red;
-        min-height: 50px;
-    }
+
+}
+
+footer {
+    display: grid;
+    grid-area: footer;
+    background: red;
+    min-height: 250px;
+    text-align: center;
+}
+
+footer>p{
+    display: grid;
+    align-items: center;
 }
 
 .largeContent {

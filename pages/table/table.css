@@ -14,12 +14,12 @@ th {
 
 .sorted-Up {
     background: red;
-    background: url("img/iconUp.svg") no-repeat right;
+    background: url("img/icon_up.svg") no-repeat right;
 }
 
 .sorted-Down {
     background: green;
-    background: url("img/iconDown.svg") no-repeat right;
+    background: url("img/icon_down.svg") no-repeat right;
 }
 
 @media (max-width: 800px), handheld, (max-device-width: 800px) {
