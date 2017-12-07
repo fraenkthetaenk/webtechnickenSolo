@@ -166,3 +166,16 @@ nav > .imageLogo {
 b{
     font-weight: bold;
 }
+
+
+
+@media (max-width: 400px), handheld, (max-device-width: 400px) {
+    form {
+        width:100%
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}

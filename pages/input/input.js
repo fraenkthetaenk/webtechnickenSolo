@@ -9,7 +9,7 @@ window.onload = (ev => {
         document.getElementById("spanUsername").innerText = url.searchParams.get("username");
         document.getElementById("spanEmail").innerText = url.searchParams.get("email");
         document.getElementById("spanPassword").innerText = url.searchParams.get("password");
-        document.getElementsByClassName("lasLogin-wrapper")[0].classList.add("show");
+        document.getElementsByClassName("lastLogin-wrapper")[0].classList.add("show");
     }
 })
 

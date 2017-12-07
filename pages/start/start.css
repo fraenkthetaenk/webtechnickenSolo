@@ -75,6 +75,7 @@ main {
 .heading {
     grid-area: heading;
     background: red;
+    text-align: center;
 }
 
 .smallExample {
@@ -333,7 +334,7 @@ main {
     .heading {
         grid-area: heading;
         background: red;
-        text-align: center;
+
     }
 
     .smallExample {
@@ -398,7 +399,6 @@ footer {
     display: grid;
     grid-area: footer;
     background: red;
-    min-height: 250px;
     text-align: center;
 }
 

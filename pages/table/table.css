@@ -70,11 +70,12 @@ nav > img {
     display: inline-block;
     float: left;
 }
-
-@media (min-width: 800px) {
-    nav > * {
+ nav > * {
         float: left;
     }
+
+
+@media (min-width: 800px) {
 
     .nav > li {
         float: left;
@@ -161,5 +162,9 @@ nav > img {
 }
 .warning{
     background-color: firebrick;
+    text-align: center;
+}
+
+footer{
     text-align: center;
 }
